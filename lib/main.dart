@@ -4,6 +4,7 @@ import 'package:ruletka/view/HomeScreen.dart';
 import 'package:ruletka/view/SplashScreen.dart';
 import 'package:ruletka/view/SubScreen1.dart';
 import 'package:ruletka/view/SubScreen2.dart';
+import 'package:ruletka/view/level_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,8 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SubScreen2(
-      ),
+      home: LevelScreen(),
     );
   }
 }
